@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\$(Configuration)\ggml.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\$(Configuration)\ggml-alloc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\$(Configuration)\ggml-backend.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\$(Configuration)\ggml-quants.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\$(Configuration)\sgemm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{AE8A2E62-D888-356E-9C4C-8E5837EE697C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

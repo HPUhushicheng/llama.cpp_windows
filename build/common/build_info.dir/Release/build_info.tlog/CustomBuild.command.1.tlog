@@ -1,0 +1,24 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\BUILD\CMAKEFILES\611D940599DA000CD473657BD012E34F\BUILD-INFO.CPP.RULE
+setlocal
+cd C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DMSVC=1 -DCMAKE_C_COMPILER_VERSION=19.39.33523.0 -DCMAKE_C_COMPILER_ID=MSVC -DCMAKE_VS_PLATFORM_NAME=x64 "-DCMAKE_C_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe" -P C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/common/../scripts/gen-build-info-cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\COMMON\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp -BC:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build --check-stamp-file C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build/common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

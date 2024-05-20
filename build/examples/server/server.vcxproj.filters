@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\examples\server\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\examples\server\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\examples\server\httplib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\examples\server\index.html.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\examples\server\index.js.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\examples\server\completion.js.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\examples\server\json-schema-to-grammar.mjs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\CMakeFiles\9e6f50e29d67260f3df912d08f91f782\index.html.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\CMakeFiles\9e6f50e29d67260f3df912d08f91f782\index.js.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\CMakeFiles\9e6f50e29d67260f3df912d08f91f782\completion.js.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\CMakeFiles\9e6f50e29d67260f3df912d08f91f782\json-schema-to-grammar.mjs.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\examples\server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9B60A4F0-9C56-36C0-8665-86DB4B57D1B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{107C7395-619C-31E2-8647-18BC20D32749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34ED91C8-034D-33DD-AF82-29FD231BEF47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

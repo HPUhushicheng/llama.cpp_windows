@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\CMakeFiles\9135e6b7f04d261dd23d160f62d83f69\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9B60A4F0-9C56-36C0-8665-86DB4B57D1B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

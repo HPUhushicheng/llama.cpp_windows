@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\BUILD\CMAKEFILES\B54BBBC9AF532B6E6BCC99D854199DB0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp -BC:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build/llama.cpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

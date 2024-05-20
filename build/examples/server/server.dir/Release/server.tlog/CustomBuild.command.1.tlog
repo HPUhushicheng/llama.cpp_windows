@@ -1,0 +1,50 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\BUILD\CMAKEFILES\9E6F50E29D67260F3DF912D08F91F782\INDEX.HTML.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/examples/server/public/index.html -DOUTPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build/examples/server/index.html.hpp -P C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\BUILD\CMAKEFILES\9E6F50E29D67260F3DF912D08F91F782\INDEX.JS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/examples/server/public/index.js -DOUTPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build/examples/server/index.js.hpp -P C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\BUILD\CMAKEFILES\9E6F50E29D67260F3DF912D08F91F782\COMPLETION.JS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/examples/server/public/completion.js -DOUTPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build/examples/server/completion.js.hpp -P C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\BUILD\CMAKEFILES\9E6F50E29D67260F3DF912D08F91F782\JSON-SCHEMA-TO-GRAMMAR.MJS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/examples/server/public/json-schema-to-grammar.mjs -DOUTPUT=C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build/examples/server/json-schema-to-grammar.mjs.hpp -P C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DESKTOP\MODELS\OLLAMA\LLM\LLAMA.CPP\EXAMPLES\SERVER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp -BC:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build --check-stamp-file C:/Users/Administrator/Desktop/models/ollama/llm/llama.cpp/build/examples/server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

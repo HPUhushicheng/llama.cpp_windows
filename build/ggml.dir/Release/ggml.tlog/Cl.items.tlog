@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\ggml.c;C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\Release\ggml.obj
+C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\ggml-alloc.c;C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\Release\ggml-alloc.obj
+C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\ggml-backend.c;C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\Release\ggml-backend.obj
+C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\ggml-quants.c;C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\Release\ggml-quants.obj
+C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\sgemm.cpp;C:\Users\Administrator\Desktop\models\ollama\llm\llama.cpp\build\ggml.dir\Release\sgemm.obj
